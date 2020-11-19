@@ -99,7 +99,7 @@ public class Core extends JavaPlugin implements Listener {
     private void ban(Player player) {
         Bukkit.getScheduler().runTask(this, () -> {
             ConsoleCommandSender console = Bukkit.getServer().getConsoleSender();
-            String command = "banip -s " + player.getName();
+            String command = "banip -s " + player.getName() + " Kršenje pravil";
             Bukkit.dispatchCommand(console, command);
         });
     }
