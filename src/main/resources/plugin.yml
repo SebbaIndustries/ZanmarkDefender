@@ -1,0 +1,10 @@
+name: 'ZanmarkDefender'
+version: ${project.version}
+main: com.sebbaindustries.zanmarkdefender.Core
+prefix: 'The Z defender'
+load: POSTWORLD
+api-version: '1.16'
+author: 'SebbaIndustries'
+description: ${project.description}
+database: false
+depend: [PlaceholderAPI]
